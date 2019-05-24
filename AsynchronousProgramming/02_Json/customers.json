@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "company": "123 Desings",
+    "phone": "123-45678"
+  },
+  {
+    "id": 2,
+    "name": "Jamie Lanister",
+    "company": "Hello Productions",
+    "phone": "333-112244"
+  },
+  {
+    "id": 3,
+    "name": "Cercei Lanister",
+    "company": "State of Art",
+    "phone": "98-123-123"
+  }
+]
