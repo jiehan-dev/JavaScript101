@@ -1,5 +1,6 @@
 // AJAX with ES5
 
+// Creating a class
 function easyHTTP() {
   this.http = new XMLHttpRequest();
 }
