@@ -1,3 +1,5 @@
+// Classes in JS is just syntactic sugar, it doesn't change how it works under the hood
+
 class Person {
   constructor(firstName, lastName, dob) {
     this.firstName = firstName;
@@ -34,6 +36,7 @@ console.log(mary);
 
 console.log(Person.addNumbers(1, 2));
 
+// Sets the Prototype(__proto__)
 class Customer extends Person {
   constructor(firstName, lastName, phone, membership) {
     super(firstName, lastName);
