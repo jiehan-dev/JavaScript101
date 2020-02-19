@@ -20,3 +20,9 @@ for (let i in myObj) {
 // Symbols are ignored by JSON.Stringify
 console.log(JSON.stringify({ key: 'prop' }));
 console.log(JSON.stringify({ [Symbol('sym1')]: 'prop' }));
+
+/* 
+Every symbol value returned from Symbol() is unique.  
+A symbol value may be used as an identifier for object properties; 
+this is the data type's primary purpose, although other use-cases exist, such as enabling opaque data types, or serving as an implementation-supported unique identifier in general.
+*/
